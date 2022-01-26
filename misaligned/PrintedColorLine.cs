@@ -8,8 +8,8 @@ namespace misaligned
 {
     public class PrintedColorLine
     {
-        public string majorColor { get; set; }
-        public string minorColor { get; set; }
-        public string printedLine { get; set; }
+        public string majorColor { get; set; } = string.Empty;
+        public string minorColor { get; set; } = string.Empty;
+        public string printedLine { get; set; } = string.Empty;
     }
 }
