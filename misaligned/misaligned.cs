@@ -16,7 +16,7 @@ namespace MisalignedSpace {
 
                 for(minorColorIndex = 0; minorColorIndex < 5; minorColorIndex++) {
 
-                    string lineToPrint = String.Format("{0,7} | {1,7} | {2,7}", majorColorIndex * 5 + minorColorIndex + 1, majorColors[majorColorIndex], minorColors[minorColorIndex]);
+                    string lineToPrint = String.Format("{0,-7} | {1,-7} | {2,-7}", majorColorIndex * 5 + minorColorIndex + 1, majorColors[majorColorIndex], minorColors[minorColorIndex]);
 
                     printedColorLines.Add(new PrintedColorLine { majorColor = majorColors[majorColorIndex], minorColor = minorColors[minorColorIndex],  printedLine =lineToPrint });
 
