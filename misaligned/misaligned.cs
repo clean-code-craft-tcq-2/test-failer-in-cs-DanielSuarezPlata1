@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 
 namespace MisalignedSpace {
-    class Misaligned {
+    class ColorCoder {
         static List<PrintedColorLine> PrintColorMap() {
 
             List<PrintedColorLine> printedColorLines = new List<PrintedColorLine>();
@@ -26,6 +26,7 @@ namespace MisalignedSpace {
             return printedColorLines;
         }
         static void Main(string[] args) {
+
             List<PrintedColorLine> result = PrintColorMap();
 
             string[] majorColors = { "White", "Red", "Black", "Yellow", "Violet" };
